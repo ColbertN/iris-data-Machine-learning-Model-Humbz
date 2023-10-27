@@ -1,0 +1,8 @@
+invoke files
+cd C:\Users\F5448255\OneDrive - FRG\Documents\Web scrapping\aws_master\\dump\002
+aws s3 sync . s3://edabusindusinvoke
+
+Found files
+cd C:\Users\F5448255\OneDrive - FRG\Documents\Web scrapping\aws_master\found
+aws s3 sync s3://edabusinessindustrysavedoutputs .
+
