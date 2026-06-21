@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+
+# Generated modelling artifacts (the folders themselves are kept in the project)
+models/*.joblib
+models/*.json
+reports/*.csv
+reports/*.json
+reports/*.md
+reports/figures/*.png
+reports/monitoring/*.csv
+reports/monitoring/*.json
+reports/scored_predictions.csv
