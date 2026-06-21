@@ -1,6 +1,6 @@
 # Iris classification project
 
-This project turns the original Iris notebook into a reproducible modelling workflow. It profiles the data, tunes multiple pipelines using cross-validation, selects and evaluates a model on a hold-out set, produces SHAP explanations, and writes data-drift monitoring and scoring outputs.
+This project turns the original I0ris notebook into a reproducible modelling workflow. It profiles the data, tunes multiple pipelines using cross-validation, selects and evaluates a model on a hold-out set, produces SHAP explanations, and writes data-drift monitoring and scoring outputs.
 
 ## Project layout
 
