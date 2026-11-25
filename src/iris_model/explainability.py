@@ -88,7 +88,7 @@ def generate_shap_report(
         f"- Explained rows: {len(explain)}\n"
         f"- Most influential feature globally: `{top['feature']}` "
         f"(mean |SHAP| = {top['mean_abs_shap_value']:.4f})\n\n"
-        "Values measure each feature's average contribution magnitude to the selected model's class probabilities; they do not prove causation.\n",
+        "Values measure each feature's average contribution magnitude to the selected model's score; they do not prove causation.\n",
         encoding="utf-8",
     )
     return result

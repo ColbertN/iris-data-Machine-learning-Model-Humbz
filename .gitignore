@@ -5,13 +5,11 @@ __pycache__/
 venv/
 .pytest_cache/
 
-# Generated modelling artifacts (the folders themselves are kept in the project)
+# Keep fitted binaries and machine-specific monitoring metadata out of source control.
 models/*.joblib
 models/*.json
-reports/*.csv
-reports/*.json
-reports/*.md
-reports/figures/*.png
-reports/monitoring/*.csv
-reports/monitoring/*.json
-reports/scored_predictions.csv
+
+# These are non-analytical joke/reference images embedded in the original notebook.
+reports/figures/notebook_outputs/notebook_attachment_microsoftteams-image.png
+reports/figures/notebook_outputs/notebook_embedded_nonfigure_image.png
+reports/figures/notebook_outputs/notebook_inline_image_58_01.jpg

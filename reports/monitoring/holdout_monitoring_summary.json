@@ -1,0 +1,9 @@
+{
+  "scored_at_utc": "2026-06-21T09:10:54.522270+00:00",
+  "batch_rows": 30,
+  "status": "alert",
+  "high_drift_features": 4,
+  "moderate_drift_features": 0,
+  "maximum_psi": 1.4730992752739775,
+  "note": "PSI flags distribution movement. Investigate data quality and model performance before retraining."
+}

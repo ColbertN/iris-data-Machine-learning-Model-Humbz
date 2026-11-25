@@ -1,0 +1,5 @@
+model,best_parameters,cv_f1_macro_mean,cv_f1_macro_std,cv_accuracy_mean,cv_balanced_accuracy_mean,cv_log_loss_mean,rank
+svm,"{""model__C"": 0.1, ""model__kernel"": ""linear""}",0.9749019607843138,0.02049246320759781,0.975,0.975,0.14083604599496263,1
+knn,"{""model__n_neighbors"": 3, ""model__p"": 2, ""model__weights"": ""uniform""}",0.9665359477124185,0.016732026143790834,0.9666666666666668,0.9666666666666668,0.9541718238452145,2
+logistic_regression,"{""model__C"": 10.0}",0.9663367569249923,0.03162306668752773,0.9666666666666668,0.9666666666666668,0.08602508761989298,3
+random_forest,"{""model__max_depth"": null, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 2, ""model__n_estimators"": 150}",0.9663367569249923,0.03162306668752773,0.9666666666666668,0.9666666666666668,0.10069900027042777,4

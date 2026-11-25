@@ -1,0 +1,13 @@
+{
+  "input": "Iris.csv",
+  "rows_scored": 150,
+  "monitoring_status": "healthy",
+  "metrics": {
+    "accuracy": 0.9666666666666667,
+    "balanced_accuracy": 0.9666666666666667,
+    "precision_macro": 0.9677505687140372,
+    "recall_macro": 0.9666666666666667,
+    "f1_macro": 0.9666366396423447,
+    "log_loss": 0.11926438202019135
+  }
+}

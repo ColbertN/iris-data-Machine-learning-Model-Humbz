@@ -1,0 +1,5 @@
+feature,mean_abs_shap_value
+PetalWidthCm,0.6103714836373269
+PetalLengthCm,0.5721379044132431
+SepalLengthCm,0.1884072071234964
+SepalWidthCm,0.12245362429361163

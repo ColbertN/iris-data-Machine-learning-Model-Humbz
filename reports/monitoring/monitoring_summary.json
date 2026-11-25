@@ -1,0 +1,17 @@
+{
+  "scored_at_utc": "2026-06-21T09:11:57.780105+00:00",
+  "batch_rows": 150,
+  "status": "healthy",
+  "high_drift_features": 0,
+  "moderate_drift_features": 0,
+  "maximum_psi": 0.017257890186917296,
+  "note": "PSI flags distribution movement. Investigate data quality and model performance before retraining.",
+  "labelled_metrics": {
+    "accuracy": 0.9666666666666667,
+    "balanced_accuracy": 0.9666666666666667,
+    "precision_macro": 0.9677505687140372,
+    "recall_macro": 0.9666666666666667,
+    "f1_macro": 0.9666366396423447,
+    "log_loss": 0.11926438202019135
+  }
+}
